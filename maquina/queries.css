@@ -1,0 +1,153 @@
+@media (width < 1000px) {
+  .hero-title {
+    font-size: 15rem;
+  }
+
+  .tour {
+    scale: 0.8;
+  }
+
+  .section-tour::after {
+    background-size: contain;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .spotify iframe {
+    height: 450px;
+  }
+
+  .card img {
+    height: 100%;
+
+    width: 100%;
+  }
+}
+
+@media (width < 800px) {
+  .section-hero {
+    height: 100vh;
+    background-image: url(img/maqiuna.jpeg);
+    background-size: 45% 45%;
+  }
+
+  .hero-title {
+    font-size: 12rem;
+  }
+  .about {
+    gap: 0;
+  }
+  .spotify iframe {
+    margin-top: -10rem;
+  }
+
+  .merch-title {
+    padding-bottom: 0;
+  }
+
+  .footer-content {
+    margin-bottom: 2.8rem;
+  }
+
+  .nav-link:hover {
+    border: 2px solid rgba(0, 0, 0, 0);
+    letter-spacing: 1.4px;
+  }
+}
+
+@media (width < 675px) {
+  .section-hero {
+    background-image: url(img/maqiuna.jpeg);
+    background-size: 60% 40%;
+  }
+  .hero-title {
+    font-size: 12rem;
+  }
+  .tour {
+    background-size: contain;
+  }
+
+  .about-title {
+    font-size: 6.8rem;
+  }
+  .about-text {
+    font-size: 1.8rem;
+  }
+
+  .spotify iframe {
+    height: 450px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    visibility: hidden;
+  }
+  .merch-title {
+    padding: 0;
+    font-size: 4.2rem;
+    padding-bottom: 2rem;
+  }
+  .card-title {
+    font-size: 2rem;
+
+    padding: 1.4rem;
+  }
+}
+
+@media (width < 565px) {
+  .hero-title {
+    font-size: 10rem;
+  }
+  .spotify iframe {
+    margin-top: -10rem;
+  }
+
+  .swiper {
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer-content {
+    scale: 0.8;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
+
+@media (width < 460px) {
+  .section-header {
+    padding: 2.2rem 1rem;
+  }
+  .hero-title {
+    font-size: 6.8rem;
+  }
+
+  .section-about {
+    padding: 0 2rem;
+  }
+
+  .about-title {
+    font-size: 4.8rem;
+  }
+  .spotify iframe {
+    margin-top: -10rem;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (width < 400px) {
+  .section-hero {
+    height: 100vh;
+    background-image: url(img/maqiuna.jpeg);
+    background-size: contain;
+  }
+}
+@media (width < 340px) {
+}
